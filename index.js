@@ -118,6 +118,11 @@ app.get('/',(req,res)=>{
     res.send('Running genius server')
 });
 
+
+app.get('/hero',(req,res)=>{
+    res.send('hero makes heroku')
+})
+
 app.listen(port,()=>{
     console.log('Listeming to port');
 })
